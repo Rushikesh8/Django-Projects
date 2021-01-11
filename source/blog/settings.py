@@ -142,13 +142,6 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 TINYMCE_JS_URL = os.path.join(MEDIA_URL, "tinymce/js/tinymce/tinymce.min.js")
 TINYMCE_JS_ROOT = os.path.join(MEDIA_ROOT, "tinymce")
 
-
-
-
-
-TINYMCE_DEFAULT_CONFIG = {
-    }
-
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
     'allauth.account.auth_backends.AuthenticationBackend',
@@ -161,3 +154,6 @@ LOGIN_REDIRECT_URL = '/'
 
 
 django_heroku.settings(locals())
+
+
+
