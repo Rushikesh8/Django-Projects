@@ -1,0 +1,21 @@
+/* your styles go here */
+
+.Main-Heading{
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    color:rgb(0, 132, 255);
+    font-weight:900;   
+ }
+ .Aux-Heading{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    color: #000;
+    line-height: .8;
+    letter-spacing: .9px;
+ }
+ .first-para{
+    line-height:15px;
+    padding:16px 78px;
+ }
