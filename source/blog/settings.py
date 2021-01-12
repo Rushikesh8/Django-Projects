@@ -155,4 +155,5 @@ LOGIN_REDIRECT_URL = '/'
 
 django_heroku.settings(locals())
 
-
+DEBUG = False
+DEBUG_PROPAGATE_EXCEPTIONS = True
